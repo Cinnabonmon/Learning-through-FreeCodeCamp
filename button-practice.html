@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice</title>
+  <style>
+
+    button:first-child {
+      background-color:red;
+      border: none;
+      color: white;
+      border-radius: 2px;
+      width: 8em;
+      height: 2em;
+      font-size: 1.2em;
+      cursor: pointer;
+      margin-right: 20px;
+      transition: opacity .2s
+    }
+
+    button:first-child:hover {
+      opacity: .7;
+    }
+
+    button:first-child:active {
+      opacity: .4;
+    }
+
+    button:nth-child(2) {
+      background-color: white;
+      border: rgb(69, 166, 227) 2px solid;
+      color: rgb(69, 166, 227);
+      border-radius: 5px;
+      width: 4.5em;
+      height: 2em;
+      font-size: 1.2em;
+      cursor: pointer;
+      margin-right: 20px;
+      transition: background-color .4s, color .4s;
+    }
+
+    button:nth-child(2):hover {
+      background-color: rgb(69, 166, 227);
+      color: white;
+    }
+
+    button:nth-child(2):active {
+      opacity: .7;
+    }
+
+    button:nth-child(3) {
+      background-color: rgb(6, 158, 240);
+      border: none;
+      color: white;
+      border-radius: 20px;
+      width: 6em;
+      height: 2em;
+      font-size: 1.2em;
+      cursor: pointer;
+      transition: box-shadow .3s;
+    }
+
+    button:nth-child(3):hover {
+      box-shadow: 5px 5px 8px rgba(0,0,0, .3);
+    }
+
+    a {
+      color: rgb(0,113,133);
+    }
+
+    h3 {
+      color: rgb(0,118,0);
+    }
+
+    .amazon {
+      border: none;
+      width: 8em;
+      margin: 0 8px;
+      padding: 5px;
+      height: 2.4em;
+      font-size: 1em;
+      border-radius: 30px;
+      cursor: pointer;
+    }
+
+    .cart {
+      background-color: rgb(255,216,20);
+      margin-left: 0;
+    }
+
+    .buy {
+      background-color: rgb(255,164,28);
+    }
+
+  </style>
+</head>
+<body>
+  <button>Subscribe</button>
+  <button>Join</button>
+  <button>Tweet</button><br><br><br><br>
+
+  <a href="https://amazon.com">Back to Amazon</a><br>
+  <h1>Nike Black Running Shoes</h1>
+  <h3>$39 - in stock.</h3>
+  <p>Free delivery tomorrow.</p>
+  <button class="amazon cart">Add to Cart</button>
+  <button class="amazon buy">Buy now</button>
+</body>
+</html>
