@@ -93,6 +93,38 @@
       background-color: rgb(255,164,28);
     }
 
+    .stretch-but {
+      margin: 30px 10px;
+      background: green;
+      border: none;
+      /* border-radius: 10px; */
+      color: white;
+      padding: 10px 18px;
+      font-size: 20px;
+      transition: padding 0.4s, margin 0.4s;
+    }
+
+    .stretch-but:hover {
+      padding: 10px 40px;
+      margin: 0;
+      cursor: pointer;
+    }
+
+    .stretch {
+      background: green;
+      margin: 10px 20px;
+      padding: 10px 20px;
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+      border: none;
+      transition: padding 0.5s;
+    }
+
+    .stretch:hover {
+      padding: 20px 40px;
+      /* cursor: pointer; */
+    }
   </style>
 </head>
 <body>
@@ -105,6 +137,12 @@
   <h3>$39 - in stock.</h3>
   <p>Free delivery tomorrow.</p>
   <button class="amazon cart">Add to Cart</button>
-  <button class="amazon buy">Buy now</button>
+  <button class="amazon buy">Buy now</button> <br>
+
+  <button class="stretch-but">One</button>
+  <button class="stretch-but">Two</button>
+  <button class="stretch-but">Three</button><br>
+
+  <button class="stretch">Stretch</button>
 </body>
 </html>
